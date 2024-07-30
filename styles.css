@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.front {
+    background-color: bisque;
+    border: 2px solid sienna;
+    border-radius: 10px 10px;
+    margin: 50px;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: sienna;
+    display: flex;
+    gap: 75%;
+    color: antiquewhite;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 2px solid sienna;
+    border-radius: 10px 10px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#timer {
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px dotted sienna;
+    border-radius: 10px;
+}
+
+#timer:hover {
+    cursor: pointer;
+    background-color: sienna;
+    color: white;
+    border-radius: 10px;
+}
+
+form {
+    display: block;
+    border: 2px solid transparent;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(160, 82, 45,0.7);
+    color: darkred;
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+}
+
+.form_divs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.form_divs label {
+    width: 40%;
+    margin-right: 15%;
+    padding: 5px 0;
+}
+
+.form_divs input {
+    padding: px 0;
+}
+
+.form button {
+    margin-top: 30px;
+    margin-left: 50%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.heading1 {
+    color: sienna;
+    font-size: 150px;
+}
+
+.heading2 {
+    color: darkred;
+    font-size: 80px;
+}
